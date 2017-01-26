@@ -15,7 +15,7 @@ for DangerFlite R/C Toolbox
 //if motor turns the wrong way, invert the polarity. no need to do that in code
 
 //steer RC input parameters
-#define rxPin 2 //the receiver channel
+#define rxPin 2 //the pin the receiver is connected to
 #define rxMax 1950 //PWM max
 #define rxMin 1000 //PWM min (who needs PPM/S.BUS support?! nobody, that's who)
 #define rxTrim -150 //trim the centre position by this amount (positive or negative integer)
